@@ -36,7 +36,7 @@
 	- deleteBook(): Xóa thông tin 1 cuốn sách trong file books.txt theo id. Cần được validate xem id có tồn tại không trước khi xóa.
 - Class EBook có thể override lại các methods trong class Book (Nếu cần).
 - Class Person:
-	- Person():  Hàm khởi tạo 1 cuốn sách với các thông tin tương ứng. Các thông tin cần được validate. Id sẽ tự động nhận là id bé nhất chưa xuất hiện trong file books.txt và không truyền id vào constructor.
+	- Person():  Hàm khởi tạo 1 người với các thông tin tương ứng. Các thông tin cần được validate. Id sẽ tự động nhận là id bé nhất chưa xuất hiện trong file books.txt và không truyền id vào constructor.
 - Class User:
 	- User(): Hàm khởi tạo thông tin 1 user với các thông tin tương ứng. Các thông tin cần được validate. Id sẽ tự động nhận là id bé nhất chưa xuất hiện trong file users.txt và không truyền id vào constructor.
 	- register(): Thêm thông tin đăng nhập 1 user vào file users.txt. Chú ý validate dữ liệu (email không được trùng, password cần có thêm rule gì đó các bạn tự quy định).
